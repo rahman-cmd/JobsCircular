@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "430803740398",
+    "firebase_url": "https://jobs-circular-6ff4f-default-rtdb.firebaseio.com",
+    "project_id": "jobs-circular-6ff4f",
+    "storage_bucket": "jobs-circular-6ff4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430803740398:android:919d5c71826cae073875ff",
+        "android_client_info": {
+          "package_name": "com.samimhossain.jobscircular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430803740398-pb85mesdakg93tp4vhhfepcqofa4mmt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5rgVU5LTYq7i3T1adGV1YJ2u0Jyjp1Uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430803740398-pb85mesdakg93tp4vhhfepcqofa4mmt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

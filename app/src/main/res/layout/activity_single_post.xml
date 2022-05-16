@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SinglePost"
+    android:background="#eee">
+
+
+    //banner ads===============================
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+
+
+    <LinearLayout
+        android:id="@+id/ImgLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+        <com.ortiz.touchview.TouchImageView
+            android:id="@+id/fullImgId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="15dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/spTitleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Is Post Title"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textIsSelectable="true"
+        android:textColor="@color/cardview_dark_background"
+        />
+    <TextView
+        android:id="@+id/spAppStartId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application Start"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textIsSelectable="true"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+    <TextView
+        android:id="@+id/spDadelineId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dadeline"
+        android:textIsSelectable="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+    <TextView
+        android:id="@+id/spDescId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Is Post Description"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textIsSelectable="true"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginBottom="30dp"
+        android:autoLink="all"
+        android:textColorLink="#2196F3"
+        android:clickable="true"
+        />
+            </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/spImgViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/img2Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+
+    <ImageView
+        android:id="@+id/img3Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/img4Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/img5Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/img6Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/img7Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/img8Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/img9Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/img10Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/downloadBtnId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#4CAF50"
+                android:text="Download Circular"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:textSize="19dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:textAllCaps="false"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>
